@@ -1,3 +1,4 @@
-agent_id,pressure,porosity
-1,100,0.2
-2,95,0.18
+well_id,pressure,production_rate,porosity
+1,100,0.15,0.2
+2,120,0.1,0.18
+3,90,0.12,0.22

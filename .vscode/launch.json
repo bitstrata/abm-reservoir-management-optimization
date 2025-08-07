@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Run ABM Simulator",
+            "name": "Run ABM Reservoir Management",
             "type": "python",
             "request": "launch",
             "program": "${workspaceFolder}/src/main.py",
