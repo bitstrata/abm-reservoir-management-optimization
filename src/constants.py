@@ -1,0 +1,9 @@
+POROSITY = 0.3  # Average porosity
+PERMEABILITY = 1000  # mD, typical for oil sands
+INITIAL_OIL_SAT = 0.8  # Initial oil saturation
+INITIAL_WATER_SAT = 0.2  # Initial water saturation
+STEAM_TEMP = 250  # °C, steam injection temperature
+RESERVOIR_TEMP = 10  # °C, initial reservoir temperature
+BITUMEN_VISCOSITY = 1000000  # cP at 10°C, reduced with temperature
+STEAM_INJECTION_RATE = 0.1  # Fraction of pore volume per step
+VISCOSITY_TEMP_COEFF = -0.05  # Viscosity reduction per °C

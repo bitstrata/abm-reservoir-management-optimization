@@ -4,5 +4,36 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"python.pythonPath": ".venv/bin/python",
+		"files.exclude": {
+			"**/.git": true,
+			"**/__pycache__": true,
+			"**/.venv": true,
+			"**/*.png": true
+		},
+		"git.enabled": true,
+		"git.autorefresh": true,
+		"python.testing.unittestEnabled": true,
+		"python.testing.unittestArgs": [
+			"-v",
+			"-s",
+			"./tests",
+			"-p",
+			"test_*.py"
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Run ABM Reservoir Management",
+				"type": "python",
+				"request": "launch",
+				"module": "src.main",
+				"console": "integratedTerminal",
+				"cwd": "${workspaceFolder}"
+			}
+		]
+	}
 }
